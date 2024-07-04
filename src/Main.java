@@ -78,24 +78,29 @@ public class Main {
 //        System.out.println(linhaDois);
 //        System.out.println(linhaTres);
 //        sc.close();
+//
+//    //Input de texto: next() lê a String até o primeiro espaço enquanto nextLine() lê até encontrar uma quebra de linha.
+//    String s1, s2, s3;
+//    s1 = sc.nextLine();
+//    s2 = sc.nextLine();
+//    s3 = sc.nextLine();
+//
+//    System.out.println("DADOS DIGITADOS:");
+//    //sc.nextLine(); <--- EXEMPLO: LEIA A OBS ABAIXO
+//    System.out.println(s1);
+//    System.out.println(s2);
+//    System.out.println(s3);
+//
+//    /*OBS: Quando você usa um comando de leitura diferente de nextLine(), (nextInt() por exemplo) e dá alguma quebra de linha, essa quebra  de
+//    linha fica pendente na entrada padrão... SOLUÇÂO: Faça um nextLine() extra antes de fazer o nextLine() de seu interesse)
+//     */
+//
+      //FUNÇÕES MATEMÁTICAS
+//
+//        A = Math.sqrt(x); // Variavel 'A' recebe a raiz quadrada de 'x'
+//        A = Math.pow(x, y); // Variavel 'A' recebe o resultado de x elevado a y
+//        A = Math.abs(x); // Variavel 'A' recebe o valor absoluto de x
 
-    //Input de texto: next() lê a String até o primeiro espaço enquanto nextLine() lê até encontrar uma quebra de linha.
-    String s1, s2, s3;
-    s1 = sc.nextLine();
-    s2 = sc.nextLine();
-    s3 = sc.nextLine();
 
-    System.out.println("DADOS DIGITADOS:");
-    //sc.nextLine(); <--- EXEMPLO: LEIA A OBS ABAIXO
-    System.out.println(s1);
-    System.out.println(s2);
-    System.out.println(s3);
-    }
-
-    /*OBS: Quando você usa um comando de leitura diferente de nextLine(), (nextInt() por exemplo) e dá alguma quebra de linha, essa quebra  de
-    linha fica pendente na entrada padrão... SOLUÇÂO: Faça um nextLine() extra antes de fazer o nextLine() de seu interesse)
-     */
-
-
-
+   }
 }
