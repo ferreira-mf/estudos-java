@@ -46,16 +46,16 @@ public class inputDeDados {
         sc.nextLine();
 
         String s1, s2, s3;
-        System.out.println("primeiro texto");
+        System.out.println("digite o primeiro texto");
         s1 = sc.nextLine();
 
-        System.out.println("segundo texto");
+        System.out.println("digite o segundo texto");
         s2 = sc.nextLine();
 
-        System.out.println("terceiro texto");
+        System.out.println("digite o terceiro texto");
         s3 = sc.nextLine();
 
-        System.out.println("DADOS DIGITADOS:");
+        System.out.println("texto completo:");
 //      sc.nextLine(); //<--- EXEMPLO: LEIA A OBS ABAIXO
         System.out.println(s1);
         System.out.println(s2);

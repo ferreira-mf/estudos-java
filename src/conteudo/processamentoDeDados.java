@@ -1,6 +1,6 @@
 package conteudo;
 
-public class processamentoDados {
+public class processamentoDeDados {
     public static void main(String[] args) {
 
     //PROCESSAMENTO DE DADOS
