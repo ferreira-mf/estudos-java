@@ -21,6 +21,8 @@ public class exercicio03 {
 
 
 
+
+
         sc.close();
     }
 }
