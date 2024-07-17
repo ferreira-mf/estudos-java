@@ -1,5 +1,6 @@
 package conteudo;
 
+
 public class processamentoDeDados {
     public static void main(String[] args) {
 
@@ -28,5 +29,6 @@ public class processamentoDeDados {
         p = 2;
         resultado = (double) o / p;
         System.out.println("5 dividido por 2 é igual a: " + resultado);
+
     }
 }
