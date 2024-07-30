@@ -2,7 +2,7 @@ package conteudo;
 
 import java.util.Scanner;
 
-public class estruturaWhile {
+public class EstruturaWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

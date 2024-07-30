@@ -1,6 +1,6 @@
 package conteudo;
 
-public class expressaoCondicional {
+public class ExpressaoCondicional {
     public static void main(String[] args) {
 
         /*Expressão condicional ternaria:

@@ -2,7 +2,7 @@ package conteudo;
 
 import java.util.Scanner;
 
-public class switchCase {
+public class SwitchCase {
     public static void main(String[] args) {
 
         /*O Switch Case é utilizado como alternativa para que não seja usado varios if else...

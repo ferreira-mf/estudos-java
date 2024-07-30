@@ -2,7 +2,7 @@ package conteudo;
 
 import java.util.Scanner;
 
-public class inputDeDados {
+public class InputDeDados {
     public static void main(String[] args) {
 
         //INPUT DE DADOS (necessário importar: import java.util.Scanner;)

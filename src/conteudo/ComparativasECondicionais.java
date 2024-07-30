@@ -2,7 +2,7 @@ package conteudo;
 
 import java.util.Scanner;
 
-public class comparativasECondicionais {
+public class ComparativasECondicionais {
     public static void main (String[] args) {
 
 

@@ -1,6 +1,6 @@
 package conteudo;
 
-public class tiposPrint {
+public class TiposPrint {
     public static void main(String[] args) {
             //DECLARACAO DE VARIAVEIS
             int y = 32;
