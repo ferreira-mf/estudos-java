@@ -1,4 +1,4 @@
-package conteudo;
+package conteudo.introducao;
 
 import java.util.Scanner;
 
@@ -64,5 +64,8 @@ public class InputDeDados {
     /*OBS: Quando você usa um comando de leitura diferente de nextLine(), (nextInt() por exemplo) e dá alguma quebra de linha, essa quebra  de
     linha fica pendente na entrada padrão... SOLUÇÂO: Faça um nextLine() extra antes de fazer o nextLine() de seu interesse)
      */
+
+
+
     }
 }

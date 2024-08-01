@@ -1,4 +1,4 @@
-package conteudo;
+package conteudo.introducao;
 
 public class ExpressaoCondicional {
     public static void main(String[] args) {

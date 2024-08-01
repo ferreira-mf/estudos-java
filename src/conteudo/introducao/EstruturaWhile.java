@@ -1,4 +1,4 @@
-package conteudo;
+package conteudo.introducao;
 
 import java.util.Scanner;
 
