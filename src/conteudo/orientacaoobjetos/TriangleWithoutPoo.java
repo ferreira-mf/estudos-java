@@ -1,9 +1,11 @@
 package conteudo.orientacaoobjetos;
 
-import java.util.Locale;
+
+import conteudo.orientacaoobjetos.entities.Triangle;
+
 import java.util.Scanner;
 
-public class OrientacaoObjetos {
+public class TriangleWithoutPoo {
     public static void main(String[] args) {
 
         //ORIENTACAO A OBJETOS
