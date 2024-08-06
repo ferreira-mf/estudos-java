@@ -11,11 +11,15 @@ public class Product { //classe
     }
 
     public void addProducts(int quantity) { //outro metodo da classe Product
-        this.quantity = quantity + this.quantity; //A palavra-chave this é usada para se referir ao atributo quantity da própria instância da classe, diferenciando-o do parâmetro quantity do método.
+        this.quantity += quantity; //A palavra-chave this é usada para se referir ao atributo quantity da própria instância da classe, diferenciando-o do parâmetro quantity do método.
 
     }
 
     public void removeProducts(int quantity) {
-        this.quantity = quantity - this.quantity;
+        this.quantity -= quantity;
+    }
+
+    public String toString() {
+        return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ " + String.format("%.2f", totalValueInStock());
     }
 }
