@@ -25,7 +25,7 @@ public class Exercicioestoque {
         product.price = sc.nextDouble();
         System.out.print("Quantity: ");
         product.quantity = sc.nextInt();
-//        product.toString(); //tostring
+//      product.toString(); //tostring
 
         System.out.println();
         System.out.println("Product data: " + product);
