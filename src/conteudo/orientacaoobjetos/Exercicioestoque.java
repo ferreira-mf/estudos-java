@@ -25,7 +25,7 @@ public class Exercicioestoque {
         double price = sc.nextDouble();
         System.out.print("Quantity: ");
         int quantity = sc.nextInt();
-        Product product = new Product(name, price, quantity); //dessa maneira o objeto é criado
+        Product product = new Product(name, price, quantity); //É feito dessa para criar objeto ja com valores pre definidos (aula de construtores)
 //      product.toString(); //tostring
 
         System.out.println();
