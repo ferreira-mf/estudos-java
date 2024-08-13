@@ -17,14 +17,15 @@ public class Exercicioestoque {
         Atribuição à Variável: Product product declara uma variável chamada product do tipo Product.
         O operador = atribui a nova instância criada ao nome da variável product.
          */
-        Product product = new Product();
+
         System.out.println("Enter product data:");
         System.out.print("Name: ");
-        product.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.print("Price: ");
-        product.price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.print("Quantity: ");
-        product.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+        Product product = new Product(name, price, quantity); //dessa maneira o objeto é criado
 //      product.toString(); //tostring
 
         System.out.println();
@@ -33,7 +34,7 @@ public class Exercicioestoque {
         System.out.println();
     //Aqui foi criado a parte de adicionar o produto ao estoque
         System.out.println("Enter the number of products to be added in stock: ");
-        int quantity = sc.nextInt();
+        quantity = sc.nextInt();
         product.addProducts(quantity);
         System.out.println();
         System.out.println("Updated data: " + product);

@@ -6,6 +6,13 @@ public class Product { //classe
     public double price; //atributo valor
     public int quantity; //atributo quantidade
 
+    //Aqui está criando um construtor onde ja esta declarado os valores
+    public Product(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
     public double totalValueInStock() { //metodo da classe Product (valor total em estoque)
         return price * quantity;
     }
