@@ -28,6 +28,11 @@ public class Exercicioestoque {
         Product product = new Product(name, price, quantity); //É feito dessa para criar objeto ja com valores pre definidos (aula de construtores)
 //      product.toString(); //tostring
 
+        product.setName("Computer"); //Ver o video: https://www.udemy.com/course/java-curso-completo/learn/lecture/10566042?start=405#overview a partir dos 8 min (get and seters)
+        System.out.println("Updated name: " + product.getName());
+        product.setPrice(1200.00);
+        System.out.println("Updated price: " + product.getPrice());
+
         System.out.println();
         System.out.println("Product data: " + product);
 // O código acima foi basicamente a mesma coisa disso: System.out.println(product.name + ", " + product.price + ", " + product.quantity);

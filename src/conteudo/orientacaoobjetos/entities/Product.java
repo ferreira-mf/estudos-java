@@ -2,15 +2,35 @@ package conteudo.orientacaoobjetos.entities;
 
 public class Product { //classe
 
-    public String name; //atributo nome
-    public double price; //atributo valor
-    public int quantity; //atributo quantidade
+    private String name; //atributo nome
+    private double price; //atributo valor
+    private int quantity; //atributo quantidade
 
     //Aqui está criando um construtor onde ja esta declarado os valores
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
+    }
+
+        public String getName(){
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
     }
 
     //Metodo para retornar valor total em estoque
