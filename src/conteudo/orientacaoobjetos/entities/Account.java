@@ -48,5 +48,16 @@ public class Account {
         this.balance -= amount + 5.0; //a conta aqui é balance - (amount+5) = ...   (exemplo: Se this.balance é 10 e amount é 20, o metodo withdraw subtrai amount (20) e uma taxa adicional de 5.0 do saldo. Portanto, o cálculo será: 10 - (20 + 5) = -15.
 
     }
+
+    public String toString() {
+        return "Account "
+                + number
+                + ", Holder: "
+                + holder
+                + ", Balance: $"
+                + String.format("%.2f", balance);
+    }
     //FIM METODOS
+
+
 }

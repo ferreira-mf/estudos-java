@@ -4,7 +4,7 @@ import conteudo.orientacaoobjetos.util.CurrencyConverter;
 
 import java.util.Scanner;
 
-public class exercicioDolar {
+public class ExercicioDolar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         CurrencyConverter currencyConv = new CurrencyConverter();
