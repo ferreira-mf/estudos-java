@@ -23,7 +23,7 @@ public class DesafioArrays3 {
             sc.nextLine();
             String name = sc.nextLine();
             System.out.print("Email: ");
-            String email = sc.next();
+            String  email = sc.next();
             System.out.print("Room: ");
             int roomNumber = sc.nextInt();
 
