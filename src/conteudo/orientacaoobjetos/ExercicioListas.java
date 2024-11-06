@@ -50,10 +50,6 @@ public class ExercicioListas {
         for (ExercicioListaEmployee emp : list) { //para cada ExercicioListaEmployee emp na minha lista list
             System.out.println(emp);
         }
-
-
-
-
         sc.close();
     }
 
