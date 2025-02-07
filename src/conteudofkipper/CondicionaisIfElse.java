@@ -11,7 +11,7 @@ public class CondicionaisIfElse {
         double d = 20.5;
         char c = 'A';
         boolean bool = true;
-        String str = "dkdkdkd"
+        String str = "dkdkdkd";
 
         //se bool for verdadeiro, printe verdadeiro, senao falso.
         if (bool) {
